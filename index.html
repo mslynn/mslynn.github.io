@@ -13,25 +13,34 @@
         }
 
         .product-list {
-            padding: 10px;
+            padding: 20px;
+            width: 90%;
+            margin: 0 auto;
         }
 
         .product-item {
             display: flex;
             /* 使用 Flexbox 布局 */
-            padding: 10px;
+            height: 200px;
+            align-items: center;
             border-bottom: 1px solid #ccc;
+            padding: 20px;
             /* 每个商品之间添加边框 */
         }
 
         .product-image {
-            flex: 0 0 80px;
+            /* flex: 0 0 80px; */
             /* 固定宽度，确保图片保持一致 */
-            height: 80px;
+            height: 200px;
             overflow: hidden;
             /* 防止图片溢出 */
             margin-right: 10px;
             /* 图片和描述之间留白 */
+        }
+
+        .product-details {
+            font-size: 30px;
+            color: #000;
         }
 
         .product-image img {
@@ -65,24 +74,24 @@
         <!-- 第一个商品 -->
         <div class="product-item">
             <div class="product-image">
-                <img src="https://via.placeholder.com/80" alt="Product Image">
+                <img src="img/1.png" alt="Product Image">
             </div>
             <div class="product-description">
-                <div class="product-name">Product 1</div>
-                <div class="product-price">$10.00</div>
-                <div class="product-details">This is a brief description of Product 1.</div>
+                <div class="product-name"></div>
+                <div class="product-price"></div>
+                <div class="product-details">iphone 13 pro max 镜面磁吸 1个</div>
             </div>
         </div>
 
         <!-- 第二个商品 -->
         <div class="product-item">
             <div class="product-image">
-                <img src="https://via.placeholder.com/80" alt="Product Image">
+                <img src="img/1.png" alt="Product Image">
             </div>
             <div class="product-description">
-                <div class="product-name">Product 2</div>
-                <div class="product-price">$20.00</div>
-                <div class="product-details">This is a brief description of Product 2.</div>
+                <div class="product-name"></div>
+                <div class="product-price"></div>
+                <div class="product-details">iphone 13 pro max 镜面磁吸 1个</div>
             </div>
         </div>
 
